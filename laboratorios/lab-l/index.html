@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png" href="img/logo@0 1.png">
+    <title>Edit Profile Website</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav class="nav-princial">
+          <ol class="side-bar-orange">
+            <li class="nav-principal__img1"><img src="img/logo@0 1.png" alt=""></li>
+            <li><img src="img/Home.png" alt=""></li>
+            <li><img src="img/Notifications.png" alt=""></li>
+            <li><img src="img/Calendar today.png" alt=""></li>
+            <li><img src="img/Show chart.png" alt=""></li>
+            <li><img src="img/Person.png" alt=""></li>
+            <li><img src="img/settings.png" alt=""></li>
+          </ol>
+        </nav>
+        <div class="side-bar-white">
+          <ul class="side-bar-white__list">
+            <li><a>settings</a></li>
+            <li><a><img src="img/Edit.png" alt="">Edit profile</a></li>
+            <li><a><img src="img/Notifications.png" alt="">Notification</a></li>
+            <li><a><img src="img/Lock.png" alt="">Security</a></li>
+            <li><a><img src="img/Settings2.png" alt="">Appearance</a></li>
+            <li><a><img src="img/Help outline.png" alt="">Help</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="box-form">
+        <img class="img-profile" src="img/image-profile.png" alt="">
+        <form class="form">
+          <div class="form-principal">
+            <h1>Edit profile</h1>
+            <div class="personal-name">
+              <div class="name">
+                <label class="label">First Name</label>
+                <input type="text" id="first" name="first" placeholder="Mehrab" class="input" required/>
+              </div>
+              <div class="last-name">
+                <label class="label">Last Name</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Bozorgi" class="input" required/>
+              </div>
+              </div>
+            <div class="mail">
+              <label class="label">Email</label>
+              <input type="email" id="email" name="email" placeholder="Mehrabbozorgi.business@gmail.com" class="input2" required/>
+            </div>
+            <div class="address">
+              <label class="label">Address</label>
+              <input type="text" id="address" name="text" placeholder="33062 Zboncak isle" class="input2" required/>
+            </div>
+            <div class="contact">
+              <label class="label">Contact Number</label>
+              <input type="tel" id="contact" name="tel" placeholder="58077.79" class="input2" required/>
+            </div>
+            <div>
+              <label for="city" class="label">City</label>
+              <select id="city" class="input">
+                <option value="">-</option>
+                <option value="Arauca">Mehrab</option>
+              </select>
+              <label for="state" class="label">State</label>
+              <select id="state" class="input">
+                <option value="">-</option>
+                <option value="Arauca">Bozorgi</option>
+            </select>
+            </div>
+            <div class="password">
+              <label class="label">Password</label>
+              <input type="password" id="password" name="password" placeholder="sbdfbnd65sfdvbs" class="input" required/>
+            </div>
+              <div>
+              <button input type="submit" class="button">Save</button>
+              <button input type="reset" class="button">Cancel</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

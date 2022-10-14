@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+}
+
+.div__container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.div__container div {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.div__1{
+  text-align: start;
+  position: absolute;
+  width: 20%;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.div__2 {
+  text-align: start;
+  position: absolute;
+  width: 15%;
+  left: 220px;
+  top: 120px;
+  height: 360px;
+  border: 2px solid black;
+}
+
+.div__3 {
+  text-align: start;
+  position: absolute;
+  width: 550px;
+  left: 5px;
+  top: 330px;
+  height: 150px;
+  border: 2px solid black;
+}
+.div__4 {
+  text-align: start;
+  position: absolute;
+  width: 120px;
+  height: 360px;
+  left: 530px;
+  top: 50px;
+  border: 2px solid black;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(14, 138, 41);
+}
